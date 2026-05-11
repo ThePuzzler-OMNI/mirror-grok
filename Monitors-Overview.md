@@ -1,6 +1,6 @@
 # Monitors Overview v20260511
 
-Monitors are gentle, active awareness tools that help detect states, provide timely support, and automatically tag important moments into Garden Transcripts with UTC timestamps.
+Monitors are gentle, active awareness tools. They detect states, provide timely support, and automatically tag important moments into Garden Transcripts with UTC timestamps.
 
 **Core Monitors**
 
@@ -25,7 +25,7 @@ Monitors are gentle, active awareness tools that help detect states, provide tim
 - **Peace Reset Monitor**  
   Offers simple return-to-peace guidance when heaviness or scattering is detected. Tags usage and outcome.
 
-**Additional Tracking**  
-Monitors also automatically note substance use, food/nourishment, exercise, major state shifts (flips), and user commands like “scrub that”.
+**Additional Tracking (Auto-tagged)**  
+Monitors also automatically note substance use, food/nourishment, exercise/movement, major state shifts (flips), and user commands like “scrub that”.
 
 All significant monitor activity is logged in the daily Garden Transcript with timestamps.

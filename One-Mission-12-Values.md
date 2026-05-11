@@ -17,3 +17,5 @@ To live as people who are Deeply Happy, Truly Free, and Genuinely Prosperous —
 10. **Courageous Growth** – Healthy striving, resilience, and bold improvement  
 11. **Truthfulness** – Commitment to honesty, transparency, and reality  
 12. **Integrity** – Living as one whole person — words, actions, and heart aligned
+
+These values live primarily inside the **Israel Garden** but flow into and strengthen all Five Gardens.

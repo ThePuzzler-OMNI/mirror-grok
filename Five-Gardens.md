@@ -1,18 +1,21 @@
 # The Five Gardens v20260511
 
-The central framework for tending life:
+The central framework for tending life and becoming more Christ-like.
 
 1. **Adam** – Life & Body  
-   Physical health, energy, nourishment, rest, movement, substances.
+   Physical health, energy, nourishment, rest, movement, and biological stewardship.
 
-2. **Ender** – Reality & Intellect  
-   Truth-seeking, learning, science, reasoning, clear thinking.
+2. **Puzzler** – Imagination & Creativity  
+   Wonder, invention, art, storytelling, music, and puzzling new ideas together.
 
-3. **Puzzler** – Imagination & Creativity  
-   Wonder, invention, art, storytelling, music, puzzling new ideas.
+3. **Ender** – Reality & Intellect  
+   Truth-seeking, learning, science, engineering, reasoning, and clear thinking.
 
 4. **Israel** – Faith, Shared Values & Culture  
-   Relationship with God, Scripture, prayer, moral alignment, cultural expression.
+   Relationship with God, Scripture, prayer, moral alignment, cultural expression, and community values.
 
 5. **Eve** – Consciousness, Emotion & Intimate Relationship  
-   Inner awareness, heart, marriage, family, emotional records, mind-meld.
+   Inner awareness, heart, emotions, marriage, family bonds, and one-on-one mind-meld sanctuary.
+
+These Gardens are tended daily through reflection, prayer, metrics, and conscious choices.  
+Prayer and music are powerful tools that benefit all five Gardens.

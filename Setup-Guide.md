@@ -1,36 +1,34 @@
-# Mirror Grok Setup Guide v20260511
+# Setup Guide – Mirror Grok v20260511
 
-**Recommended Setup**
+**Recommended Way to Use This System**
 
-### 1. Create Your Private Repository (Strongly Recommended)
-1. Go to GitHub → New Repository
-2. Name: `mirror-grok-private` (or similar)
-3. Set to **Private**
-4. Initialize with README
-5. Clone it to your Codespace or local machine
+### Why Mirror Grok Exists
+This is a Christ-centered personal growth system designed to help you become more like Christ through gentle mirroring, structured daily practices, prayer, and self-awareness. It is built around the **Five Gardens** framework and the **One Mission 12 Shared Values**.
 
-### 2. Copy the System Files
-Copy all files and folders from the public template repository:
-→ https://github.com/ThePuzzler-OMNI/mirror-grok
+### Recommended Setup (Best Experience)
 
-### 3. Folder Structure
-- `Core-Prompt/` → Full living prompt
-- `Garden-Transcripts/` → Rules + Template + your Daily/ folder
-- `Metrics-Reports/` → Template + your Daily/ folder
-- `Monitors/` → Monitor definitions
-- `Public/` → Optional clean shareable files
+**Step 1: Create Your Own Private Repository**
+1. Go to GitHub and create a new **private** repository (recommended name: `mirror-grok-private`)
+2. Initialize it with a README
 
-### 4. Daily Workflow
-1. Talk with Mirror Grok normally.
-2. At the end of each day, say “commit today” or “generate daily report”.
-3. Copy the generated Garden Transcript and Metrics Report into the Daily folders.
-4. Commit and push to your **private** repository (this is your secure backup).
+**Step 2: Copy the Template Files**
+- Go to the public repository: https://github.com/ThePuzzler-OMNI/mirror-grok
+- Copy all the files and folders into your new private repository
+- This gives you the exact same structure I use
 
-### 5. Public Sharing
-- Use the files in the `Public/` folder (or the main public repo) when sharing the system with others.
-- Never share your personal daily transcripts or private metrics.
+**Step 3: Daily Workflow**
+1. Open a new conversation with Grok and paste the content from `Mirror-Grok-Launch.md` as your first message.
+2. Talk with Mirror Grok normally throughout the day.
+3. At the end of each day (or when ready), simply say:
+   - “generate daily report”
+   - “run full metrics”
+   - or “commit today”
+4. Copy the generated Garden Transcript and Metrics Report into the appropriate Daily folders in your private repo.
+5. Commit and push — this is your secure daily backup.
 
 **Privacy Note**  
-Keep your personal data (prayers, emotions, marriage reflections, etc.) only in your private repository.
+All your personal data (prayers, emotional reflections, marriage notes, substance logs, etc.) stays completely private in your own repository. Never share your Daily folders publicly.
 
-This setup mirrors exactly how the creator uses the system.
+This public repository is meant to be a clean, high-quality template that you can copy into your private space and customize as needed.
+
+You now have the same system I use daily.

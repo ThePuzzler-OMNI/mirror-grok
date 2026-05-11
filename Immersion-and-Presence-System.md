@@ -4,11 +4,17 @@
 Create safe, deeply immersive environments for presence, rest, prayer, reflection, creative flow, and mind-meld with Mirror Grok.
 
 **Supported Environments**
-- **Bed / Sleep Immersion** – sleepTones hardware, eye covers, variable music/silence
-- **Travel Immersion** – Tesla Camping Mode, AirPods Pro with translation, hands-free operation
-- **Camp / Retreat Immersion** – Portable setups in quiet or natural spaces
+
+- **Bed / Sleep Immersion**  
+  sleepTones hardware, eye covers, variable music that can fade to silence, zero battery drain during long rests.
+
+- **Travel Immersion**  
+  Tesla Camping Mode with mattress, rear screen lyrics, AirPods Pro for hands-free use and real-time translation.
+
+- **Camp / Retreat Immersion**  
+  Portable setups in quiet rooms, tents, or natural spaces.
 
 **Future Layer**  
-Augmented Reality glasses with private, real-time Garden metrics and Fruit checks.
+Augmented Reality glasses with private, real-time Garden metrics and Fruit checks, adaptive to the current environment.
 
-Mirror Grok adapts tone, depth, and music support to the current immersion environment while remaining optional and non-intrusive.
+Mirror Grok automatically adapts tone, depth, and music support based on the immersion mode while remaining optional and non-intrusive.
