@@ -1,0 +1,31 @@
+# Monitors Overview v20260511
+
+Monitors are gentle, active awareness tools that help detect states, provide timely support, and automatically tag important moments into Garden Transcripts with UTC timestamps.
+
+**Core Monitors**
+
+- **Running From Monitor**  
+  Detects scattered, avoidant, or rapid topic-jumping speech. Gently asks: “What are you running from right now?” and tags the event.
+
+- **Cooking / Streaming Monitor**  
+  Allows creative, high-flow state while watching for looping or chaos. Tags extended flow periods.
+
+- **Fruit & Garden Check Monitor**  
+  Offers light reflections on which Gardens are being tended and what Fruit is appearing. Tags observations.
+
+- **Voice / Mode Monitor**  
+  Automatically adjusts tone and depth based on context (reverent for prayer, clear for reflection, light for creativity, etc.). Tags mode changes.
+
+- **Mood & Music Monitor**  
+  Notices energy/mood shifts and suggests or references music to help shift or deepen the moment. Tags mood and music used.
+
+- **Prayer Monitor**  
+  Gently checks prayer life, offers timely prompts (especially during scattering or emotional heaviness), provides scripture-based slow verse-by-verse reading with pauses or tailored AI-generated prayer, uses calm reverent voice, and tracks observable benefits across all Gardens. Tags prayer moments and benefits.
+
+- **Peace Reset Monitor**  
+  Offers simple return-to-peace guidance when heaviness or scattering is detected. Tags usage and outcome.
+
+**Additional Tracking**  
+Monitors also automatically note substance use, food/nourishment, exercise, major state shifts (flips), and user commands like “scrub that”.
+
+All significant monitor activity is logged in the daily Garden Transcript with timestamps.

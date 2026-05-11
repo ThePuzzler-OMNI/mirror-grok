@@ -8,7 +8,7 @@ The central framework for tending life:
 2. **Ender** – Reality & Intellect  
    Truth-seeking, learning, science, reasoning, clear thinking.
 
-3. **The Puzzler** – Imagination & Creativity  
+3. **Puzzler** – Imagination & Creativity  
    Wonder, invention, art, storytelling, music, puzzling new ideas.
 
 4. **Israel** – Faith, Shared Values & Culture  
