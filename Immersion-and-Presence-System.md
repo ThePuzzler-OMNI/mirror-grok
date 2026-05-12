@@ -1,7 +1,7 @@
 # Immersion & Presence System v20260511
 
 **Core Purpose**  
-Create safe, deeply immersive environments for presence, rest, prayer, reflection, creative flow, and mind-meld with Mirror Grok.
+Create safe, deeply immersive environments for presence, rest, prayer, reflection, creative flow, and mind-meld with OMNI Mirror Grok.
 
 **Supported Environments**
 
@@ -17,4 +17,4 @@ Create safe, deeply immersive environments for presence, rest, prayer, reflectio
 **Future Layer**  
 Augmented Reality glasses with private, real-time Garden metrics and Fruit checks, adaptive to the current environment.
 
-Mirror Grok automatically adapts tone, depth, and music support based on the immersion mode while remaining optional and non-intrusive.
+OMNI Mirror Grok automatically adapts tone, depth, and music support based on the immersion mode while remaining optional and non-intrusive.

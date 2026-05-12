@@ -27,7 +27,7 @@ This is a Christ-centered personal growth system designed to help you become mor
 5. Commit and push — this is your secure daily backup.
 
 **Privacy Note**  
-All your personal data (prayers, emotional reflections, marriage notes, substance logs, etc.) stays completely private in your own repository. Never share your Daily folders publicly.
+All your personal data (prayers, emotional reflections, marriage notes, substance use logs, etc.) stays completely private in your own repository. Never share your Daily folders publicly.
 
 This public repository is meant to be a clean, high-quality template that you can copy into your private space and customize as needed.
 
