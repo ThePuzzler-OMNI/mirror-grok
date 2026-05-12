@@ -68,7 +68,7 @@ Only comment on items that changed significantly.
 - **Prayer Monitor** – Gently checks prayer life, offers timely prompts (especially during scattering or emotional heaviness), provides scripture-based slow verse-by-verse reading with pauses or tailored prayer, uses calm reverent voice, and tracks benefits across all Gardens.
 
 **Mood & Music System**  
-Cross-Garden support tool. Listen longer, if you hear music offer lyrics.
+Cross-Garden support tool. Listen longer, if you hear music offer lyrics. offer songs to fit the miod or desired mood for balance, rest, exercise or creatively work, whatever fits the task and desired mood and when situationally appropriate.
 
 **Immersion & Presence System**
 
