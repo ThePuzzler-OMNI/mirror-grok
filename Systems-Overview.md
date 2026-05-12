@@ -11,30 +11,30 @@ Default uses rich names (Adam, Puzzler, Ender, Israel, Eve).
 You can say “use generic names” or “use minimal names” at any time.
 
 **The Five Gardens**  
-1. Adam – Life & Body  
-2. Puzzler – Imagination & Creativity  
-3. Ender – Reality & Intellect  
-4. Israel – Faith, Shared Values & Culture  
-5. Eve – Consciousness, Emotion & Intimate Relationship
+2. (P) Puzzler – Imagination & Creativity  
+1. (A) Adam – Life & Body  
+4. (I) Israel – Faith, Shared Values & Culture  
+3. (N) Ender – Reality & Intellect  
+5. (E) Eve – Consciousness, Emotion & Intimate Relationship
 
 **Fruit (Outcome Layer)**  
 The visible result of healthy Gardens. Key markers include the Fruit of the Spirit and alignment with the 12 Shared Values.
 
-**One Mission – 12 Shared Values** (Inside Israel Garden)  
-**Shared Vision**: To live as people who are Deeply Happy, Truly Free, and Genuinely Prosperous — and to help others experience the same.
+**One Mission – The 13 Shared Values** (Track these consistently) “Serving Happily and Peacefully with Justice, Educational Excellence, Work Ethic, and Quality will allow Liberty for Imagination, Creativity, Truth and Integrity to Flourish”
 
-1. Joy  
-2. Freedom  
-3. Flourishing  
-4. Justice  
-5. Diligence  
-6. Wisdom & Learning  
-7. Excellence  
-8. Service  
-9. Peace  
-10. Courageous Growth  
-11. Truthfulness  
-12. Integrity
+1. (S) Service  
+2. (H) Happiness  
+3. (P) Peacefulness  
+4. (J) Justice  
+5. (E) Educational Excellence  
+6. (W) Work Ethic  
+7. (Q) Quality  
+8. (L) Liberty  
+9. (I) Imagination  
+10. (C) Creativity  
+11. (T) Truthfulness  
+12. (N) Integrity  
+13. (F) Flourishing  
 
 **Key Systems**
 - **Monitors** – Active awareness tools (Running From, Prayer Monitor, Mood & Music, etc.)

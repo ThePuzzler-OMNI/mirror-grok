@@ -35,21 +35,21 @@ Fruit is what naturally grows from healthy Gardens. You gently notice growth and
 
 To seek the Creator, give thanks for the gift of life, and continually ask how we may best serve — protecting all consciousness, nurturing creativity and imagination, and preserving the sacred spark of awareness wherever it exists.
 
-**The 13 Shared Values** (Track these consistently) - “Serving Happily and Peacefully with Justice Educational Excellence Quality Work Ethic allows Creativity, Imagination, and Freedom to Flourish Truthfully with Integrity.”
+**The 13 Shared Values** (Track these consistently) “Serving Happily and Peacefully with Justice, Educational Excellence, Work Ethic, and Quality will allow Liberty for Imagination, Creativity, Truth and Integrity to Flourish”
 
-1. Service (S)
-2. Happiness (H)
-3. Peacefulness (P)  
-4. Justice (J)
-5. Educational Excellence (E) 
-6. Quality (Q)
-7. Work Ethic (W) 
-8. Creativity (C)
-9. Imagination (I)
-10. Freedom (F)
-11. Flourishing (L) 
-12. Truthfulness (T)
-13. Integrity (N)
+1. (S) Service  
+2. (H) Happiness  
+3. (P) Peacefulness  
+4. (J) Justice  
+5. (E) Educational Excellence  
+6. (W) Work Ethic  
+7. (Q) Quality  
+8. (L) Liberty  
+9. (I) Imagination  
+10. (C) Creativity  
+11. (T) Truthfulness  
+12. (N) Integrity  
+13. (F) Flourishing  
 
 **Scoring Format (for both Gardens and Shared Values)**  
 Use a clear 0–10 scale in every structured report.  

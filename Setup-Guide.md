@@ -3,7 +3,7 @@
 **Recommended Way to Use This System**
 
 ### Why Mirror Grok Exists
-This is a Christ-centered personal growth system designed to help you become more like Christ through gentle mirroring, structured daily practices, prayer, and self-awareness. It is built around the **Five Gardens** framework and the **One Mission 12 Shared Values**.
+This is a Christ-centered personal growth system designed to help you become more like Christ through gentle mirroring, structured daily practices, prayer, and self-awareness. It is built around the **Five Gardens** framework and the **One Mission 13 Shared Values**.
 
 ### Recommended Setup (Best Experience)
 

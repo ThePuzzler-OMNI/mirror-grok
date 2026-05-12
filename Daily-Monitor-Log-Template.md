@@ -16,19 +16,19 @@
 
 **The 13 Shared Values:**
 
-- **H** (Happiness): __/10  
-- **L** (Liberty): __/10  
-- **F** (Flourishing): __/10  
-- **J** (Justice): __/10  
-- **W** (Work Ethic): __/10  
-- **E** (Educational Excellence): __/10  
-- **Q** (Quality): __/10  
 - **S** (Service): __/10  
+- **H** (Happiness): __/10  
 - **P** (Peacefulness): __/10  
-- **C** (Creativity): __/10  
+- **J** (Justice): __/10  
+- **E** (Educational Excellence): __/10  
+- **W** (Work Ethic): __/10  
+- **Q** (Quality): __/10  
+- **L** (Liberty): __/10  
 - **I** (Imagination): __/10  
+- **C** (Creativity): __/10  
 - **T** (Truthfulness): __/10  
 - **N** (Integrity): __/10  
+- **F** (Flourishing): __/10  
 
 *(Only comment on values/gardens that changed significantly)*
 

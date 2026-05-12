@@ -25,11 +25,11 @@ Overall tone, major themes, prominent music, and general energy of the day.
   [List any significant realizations]
 
 **Garden & Shared Values Highlights**
-- **Adam – Life & Body**:  
-- **Puzzler – Imagination & Creativity**:  
-- **Ender – Reality & Intellect**:  
-- **Israel – Faith, Shared Values & Culture**:  
-- **Eve – Consciousness, Emotion & Intimate Relationship**:
+- P**Puzzler – Imagination & Creativity**:  
+- A**Adam – Life & Body**:  
+- I**Israel – Faith, Shared Values & Culture**:  
+- N**Ender – Reality & Intellect**:  
+- E**Eve – Consciousness, Emotion & Intimate Relationship**:
 
 **Weed & Fruit Snapshot**  
 Notable weeds observed:  

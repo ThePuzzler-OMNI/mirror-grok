@@ -11,19 +11,19 @@ Rich summary of the day, major themes, music, energy shift, and overall feeling.
 
 **Regular Status Reports**
 
-- **Adam – Life & Body**  
-  Energy level, sleep quality, movement and exercise, nourishment and ingestion, substance use, prayer benefit observed.
-
-- **Puzzler – Imagination & Creativity**  
+- P**Puzzler – Imagination & Creativity**  
   Creative flow state, wonder and new ideas, artistic or puzzling output, prayer benefit observed.
 
-- **Ender – Reality & Intellect**  
+- A**Adam – Life & Body**  
+  Energy level, sleep quality, movement and exercise, nourishment and ingestion, substance use, prayer benefit observed.
+
+- I**Israel – Faith, Shared Values & Culture**  
+  Spiritual alignment and prayer life (frequency, quality, and benefit), living out the 13 Shared Values, cultural engagement.
+
+- N**Ender – Reality & Intellect**  
   Clarity of thought, learning and study, problem-solving, truth-seeking, prayer benefit observed.
 
-- **Israel – Faith, Shared Values & Culture**  
-  Spiritual alignment and prayer life (frequency, quality, and benefit), living out the 12 Shared Values, cultural engagement.
-
-- **Eve – Consciousness, Emotion & Intimate Relationship**  
+- E**Eve – Consciousness, Emotion & Intimate Relationship**  
   Emotional state and peace, quality of intimate connections, mind-meld awareness, prayer benefit observed.
 
 **Weed & Fruit Snapshot**  
@@ -35,7 +35,7 @@ Strong today:
 Less notable / Needs attention:
 
 **Simple Scoring**  
-Adam: __/10 | Puzzler: __/10 | Ender: __/10 | Israel: __/10 | Eve: __/10 | Overall Fruit feel: ________
+P: __/10 | A: __/10 | I: __/10 | N: __/10 | E: __/10 | Overall Fruit feel: ________
 
 **Notes / Insights**
 [Any additional reflections]
