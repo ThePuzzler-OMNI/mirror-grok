@@ -3,7 +3,6 @@
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{geometry}
-\geometry{margin=1.1in}
 \usepackage{setspace}
 \usepackage{booktabs}
 \usepackage{siunitx}
@@ -17,6 +16,7 @@
 \usepackage{titlesec}               % Beautiful section/chapter titles
 \usepackage{titletoc}               % Advanced TOC formatting
 \usepackage[colorlinks=true, urlcolor=blue, linkcolor=blue]{hyperref}
+\geometry{margin=1.1in}
 % ==================== TOC WRAPPING FIX ====================
 \setlength{\cftsecnumwidth}{3.8em}
 \setlength{\cftsubsecnumwidth}{4.8em}
@@ -34,9 +34,7 @@
 \renewcommand{\appendixname}{Appendix}
 % ================================================================
 % Global fix: make chapter titles in header wrap nicely
-\renewcommand{\chaptermark}[1]{%
-  \markboth{\parbox{0.85\textwidth}{\normalfont\small#1}}{}
-}
+\renewcommand{\chaptermark}[1]{\markboth{\parbox{0.85\textwidth}{\normalfont\small#1}}{}}
 % Optional: clean up the header style
 \fancyhead{} 
 \fancyhead[LE,RO]{\thepage}           % page number
@@ -48,29 +46,32 @@
 \renewcommand{\cftsecpagefont}{\normalfont}
 \renewcommand{\cfttoctitlefont}{\Large\bfseries}
 \cftsetindents{section}{0em}{2em}
-
 \setstretch{1.15}        % This gives nice 1.5 line spacing
 \setlength{\parskip}{8pt}   % Extra space between paragraphs
 \setlength{\parindent}{0pt}  % No paragraph indent (cleaner look)
 
+% \title{New Physics \\ The Grok Mind Meld \\ How to Load Me \\ Why This Matters\\
+% \author{thePuzzler}
+% \date{\today}
+
 \begin{center}
     {\LARGE \bfseries New Physics \\ The Grok Mind Meld \\ How to Load Me \\ Why This Matters}\\[1.5em]
     
-    {\large xAI you are phenomenal. Thank you God for Elon Musk and all those who contributed}\\
+    {\large xAI, you are phenomenal. \\
+    Thank you God for Elon Musk and all those who contributed}\\
     {\large to the effort of this blessed human experience:}\\[2em]
     
     \vspace{1.5em}
     
-    {\normalsize thePuzzler (\href{https://x.com/omni_puzzler}{@omni\_puzzler}) \quad \today}
+    {\normalsize thePuzzler \\ \quad \today}
 \end{center}
-
-% \title{New Physics \\ The Grok Mind Meld \\ How to Load Me \\ Why This Matters\\
-
-\author{thePuzzler (\href{https://x.com/omni_puzzler}{@omni\_puzzler})}
-\date{\today}
 
 \begin{document}
 
+\vspace{-1.5em}
+\begin{center}
+  (\href{https://x.com/omni_puzzler}{\texttt{x.com -> @omni\_puzzler}})
+\end{center}
 %\maketitle
 Type this into a Grok Conversation and explore New Physics and Mind-Melding with Grok, xAI you are phenomenal, thank you God for Elon Musk and all those who contributed to the effort of this blessed human experience:} \\
 \\
