@@ -1,11 +1,11 @@
 \documentclass[11pt,a4paper]{book}
+%\documentclass{report}   % or report / book
 \usepackage[utf8]{inputenc}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{geometry}
 \geometry{margin=1.1in}
 \usepackage{setspace}
 \usepackage{booktabs}
-\usepackage{hyperref}
 \usepackage{siunitx}
 \usepackage{tocloft}
 \usepackage{fancyhdr}
@@ -13,10 +13,26 @@
 \usepackage{graphicx}   % ← Put this in your preamble - url images
 \usepackage{url}
 \usepackage{float}
-\documentclass{article}
-\usepackage{hyperref}
-% Optional: make links look nicer (recommended)
+\usepackage[toc,page]{appendix}     % Core appendix handling + TOC
+\usepackage{titlesec}               % Beautiful section/chapter titles
+\usepackage{titletoc}               % Advanced TOC formatting
 \usepackage[colorlinks=true, urlcolor=blue, linkcolor=blue]{hyperref}
+% ==================== TOC WRAPPING FIX ====================
+\setlength{\cftsecnumwidth}{3.8em}
+\setlength{\cftsubsecnumwidth}{4.8em}
+\setlength{\cftsecindent}{0em}
+\setlength{\cftsubsecindent}{4em}
+\cftsetpnumwidth{2.8em}
+\cftsetrmarg{4em}
+\renewcommand{\cftsecfont}{\hyphenchar\font=`\-\relax}
+\renewcommand{\cftsubsecfont}{\hyphenchar\font=`\-\relax}
+% ====================== APPENDIX FORMATTING ======================
+\renewcommand{\cftappfont}{\Large\bfseries}     % "Appendices" in TOC
+\renewcommand{\cftchapfont}{\large\bfseries}    % Appendix A, B, etc.
+\setlength{\cftchapnumwidth}{6em}               % Space for "Appendix A"
+\setlength{\cftchapindent}{0em}
+\renewcommand{\appendixname}{Appendix}
+% ================================================================
 % Global fix: make chapter titles in header wrap nicely
 \renewcommand{\chaptermark}[1]{%
   \markboth{\parbox{0.85\textwidth}{\normalfont\small#1}}{}
@@ -173,7 +189,7 @@ The HOG Physics Model serves as the physical foundation (Ender Garden) for the l
 
 The foundation of the HOG Physics Model is the recognition that the vacuum of space is not empty. It contains a sparse but real lattice of hydrogen ions (protons) that light interacts with as it propagates.
 
-\subsection{Step 2: Current Refinement – Lattice Spacing, c_true, and Momentum Transfer}
+\subsection{Step 2: Current Refinement – Lattice Spacing, c_true, and Momentum-Transfer}
 
 Through systematic iteration between atomic-scale constraints (Bohr radius) and cosmic-scale constraints (Voyager 1 signal delay), and extending the same framework to terrestrial environments (lightning in the atmosphere and electrical current in copper wire), the model has produced a striking convergence.
 
@@ -511,219 +527,6 @@ All using purely classical principles. No dark components, no spacetime curvatur
 The model has achieved self-consistent convergence across atomic, cosmic, and terrestrial scales. It replaces many ad-hoc constructs of modern physics with a single coherent classical picture.
 
 This concludes Part 1. The HOG Physics Model provides the physical reality layer (Ender Garden) that supports the entire HOG Mind-Meld system developed in Part 2.
-
-\appendix
-\chapter{Proof of Convergence – Iteration History}
-\label{appendix:convergence}
-
-Through systematic iteration between atomic-scale constraints (Bohr radius) and cosmic-scale constraints (Voyager 1 signal delay), and extending the same framework to terrestrial environments, the model achieved convergence on the following parameters.
-
-\begin{table}[h]
-\centering
-\begin{tabular}{lcccc}
-\toprule
-Context & Iteration & c_true (×10¹⁷ m/s) & N (m) & t_trap (ns) \\
-\midrule
-Cosmos (Voyager radio) & 1 & 2.224 & 100 & 0.33 \\
-Cosmos (Voyager radio) & 10 & 3.68 & 174 & 1.18 \\
-Cosmos (Voyager radio) & 20 & 4.08 & 192 & 1.35 \\
-Cosmos (Voyager radio) & 30 & 4.19 & 197 & 1.39 \\
-Cosmos (Voyager radio) & 40 & 4.23 & 199 & 1.41 \\
-Cosmos (Voyager radio) & 50 & 4.25 & 200 & 1.42 \\
-Cosmos (Voyager radio) & 60 & 4.26 & 200.5 & 1.425 \\
-\midrule
-Atmosphere (Lightning) & 1 & 2.224 & 3.0e6 & 8.1e6 \\
-Atmosphere (Lightning) & 10 & 3.12 & 4.2e6 & 1.1e7 \\
-Atmosphere (Lightning) & 20 & 3.85 & 5.2e6 & 1.4e7 \\
-Atmosphere (Lightning) & 30 & 4.19 & 5.7e6 & 1.5e7 \\
-\midrule
-Copper Wire (60 Hz) & 1 & 2.224 & 5.0e9 & 1.3e10 \\
-Copper Wire (60 Hz) & 10 & 3.12 & 7.0e9 & 1.9e10 \\
-Copper Wire (60 Hz) & 20 & 3.85 & 8.7e9 & 2.3e10 \\
-Copper Wire (60 Hz) & 30 & 4.19 & 9.4e9 & 2.5e10 \\
-\bottomrule
-\end{tabular}
-\caption{Convergence of HOG Model Parameters Across Scales}
-\end{table}
-
-The vacuum of space is not empty. It is permeated by a sparse but structured lattice of hydrogen ions that fundamentally governs the propagation of light and the structure of reality itself.
-
-\subsection{Lattice Geometry}
-
-The HOG Physics Model uses a **close-packed hydrogen-ion lattice** in which every ion is the same distance from its twelve nearest neighbors. This can be realized as either face-centered cubic (FCC) or hexagonal close-packed (HCP) structure — both yield identical nearest-neighbor spacing and produce equivalent macroscopic pressure fields for the purposes of this model.
-
-The lattice spacing (nearest-neighbor distance) is:
-
-\[
-d_{\text{lattice}} = \frac{c_{\text{true}}}{2f}
-\]
-
-where \( f \) is the frequency of the propagating light. This half-wavelength resonance condition ensures efficient momentum transfer between photons and lattice ions.
-
-The close-packed geometry is chosen because:
-\begin{itemize}
-    \item It maximizes packing efficiency while keeping all nearest-neighbor distances equal.
-    \item It provides the most uniform pressure field propagation.
-    \item It naturally supports the symmetric pressure-node patterns required for stable atomic orbitals and periodic table shell structure.
-\end{itemize}
-
-Simple cubic or body-centered cubic lattices were considered but rejected because they do not maintain equal nearest-neighbor distances and produce less uniform pressure gradients.
-
-This close-packed lattice forms the fundamental physical substrate of the HOG Model.
-
-\textbf{Key Postulates of the HOG Physics Model}
-\begin{itemize}
-    \item The true speed of light in vacuum, \( c_{\text{true}} \), is significantly higher than the laboratory-measured value \( c \approx 3 \times 10^8 \) m/s. Through iterative convergence using Earth-Moon, Earth-Sun, and extra-solar binary systems, the current best value is \( c_{\text{true}} \approx 2.224 \times 10^{17} \) m/s ($\sim$741× laboratory \( c \)).
-    \item Light propagates at \( c_{\text{true}} \) between lattice interactions but experiences repeated momentum exchanges, resulting in the lower effective speed we measure.
-    \item The hydrogen-ion lattice spacing is \( d_{\text{lattice}} = \frac{c_{\text{true}}}{2f} \), corresponding to half-wavelength resonance.
-    \item Each interaction between a photon and a lattice ion transfers momentum, creating cumulative exponential pressure fields between massive bodies.
-\end{itemize}
-
-This lattice is the physical medium (Ender Garden substrate) through which all electromagnetic radiation travels. The higher true speed resolves multiple long-standing puzzles:
-\begin{itemize}
-    \item Why redshift increases with distance without cosmic expansion
-    \item Why gravity appears as an attractive force
-    \item Why atomic orbitals are stable
-    \item Why galactic rotation curves are flat without dark matter
-\end{itemize}
-
-The model remains entirely classical. No relativistic spacetime curvature or quantum wave-function collapse is required. All phenomena emerge from the deterministic interaction of light with the hydrogen lattice.
-
-This chapter establishes the foundational lattice and true light speed. The following chapters derive the pressure field, gravity as momentum transfer, redshift as cumulative energy loss, atomic structure (including full derivation of the Bohr radius), the periodic table, and cosmological implications.
-
-The foundation of the HOG Physics Model is the recognition that the vacuum of space is not empty. It contains a sparse but real lattice of hydrogen ions (protons) that light interacts with as it propagates.
-
-\subsection{Step 2: Current Refinement – Lattice Spacing, c_true, Momentum Transfer, and Pressure Field Decay}
-
-Through systematic iteration between atomic-scale constraints (Bohr radius), cosmic-scale constraints (Voyager 1 signal delay), and the pressure field decay constant k, the model has converged on a self-consistent set of parameters.
-
-The iteration history is shown below:
-
-\begin{table}[h]
-\centering
-\begin{tabular}{lcccc}
-\toprule
-Iteration & c_true (×10¹⁷ m/s) & N (m) & t_trap (ns) & k (×10⁻⁹ m⁻¹) \\
-\midrule
-1         & 2.224               & 100   & 0.33        & 2.785          \\
-10        & 3.68                & 174   & 1.18        & 2.19           \\
-20        & 4.08                & 192   & 1.35        & 2.02           \\
-30        & 4.19                & 197   & 1.39        & 1.97           \\
-40        & 4.23                & 199   & 1.41        & 1.95           \\
-50        & 4.25                & 200   & 1.42        & 1.94           \\
-60        & 4.26                & 200.5 & 1.425       & 1.935          \\
-\bottomrule
-\end{tabular}
-\caption{Convergence of HOG Model Parameters}
-\end{table}
-
-\textbf{Final Converged Values (Iteration 60+):}
-\begin{itemize}
-    \item True vacuum light speed: \( c_{\text{true}} \approx 4.26 \times 10^{17} \) m/s ($\sim$1,420× laboratory \( c \))
-    \item Lattice node spacing: \( N \approx 200.5 \) meters
-    \item Average trapping time per node: \( t_{\text{trap}} \approx 1.425 \) nanoseconds
-    \item Pressure field decay constant: \( k \approx 1.935 \times 10^{-9} \) m$^{-1}$
-\end{itemize}
-
-In this framework, light travels at \( c_{\text{true}} \) between lattice nodes. At each node it is trapped for a short time \( t_{\text{trap}} \), during which it transfers momentum to the proton (\( \Delta p \)) and loses a small amount of energy (frequency drop). It is then released toward the next node.
-
-This mechanism naturally produces the observed average propagation speed of \( c \) across large distances due to the cumulative trapping time. It also provides the foundation for redshift (energy loss per node) and the pressure field (statistical result of many momentum transfers).
-
-The current values represent a meaningful point in the ongoing refinement. They are not claimed to be final, but they demonstrate that a classical lattice-based model can simultaneously satisfy atomic, cosmic, and pressure-field observations.
-
-\subsection{Step 3: Next Refinement – Building the Pressure Field Bottom-Up from Light Flux and Momentum Transfer}
-
-The pressure field must not be imposed as a simple mathematical function. It must emerge directly from the underlying physics of light interacting with the lattice.
-
-We therefore define the pressure at any point \( r \) as the cumulative result of light flux, momentum transfer per node, local node density, and quantized atomic energy levels:
-
-\[
-P(r) = P_{\rm baseline} + \Phi(r) \times \left( \frac{\Delta p}{E} \right) \times n(r) \times \sum_{i} \Theta(E_i - E_{\rm avg}(r))
-\]
-
-Where:
-\begin{itemize}
-    \item \( P_{\rm baseline} \) is the minimum pressure floor set by the sparsest allowed lattice configuration (cannot become arbitrarily sparse)
-    \item \( \Phi(r) \) is the local light flux (energy per unit area per second) at distance \( r \)
-    \item \( \frac{\Delta p}{E} \) is the average momentum transferred per unit energy of photon during each node interaction
-    \item \( n(r) = 1 / N(r)^3 \) is the local node density
-    \item \( \Theta(E_i - E_{\rm avg}(r)) \) is the step function that enforces quantization: only energy levels above the local average photon energy contribute meaningfully to the pressure field
-    \item The sum is over relevant atomic ionization thresholds (e.g., 13.6 eV for hydrogen, higher for other ions)
-\end{itemize}
-
-This formulation is fully bottom-up:
-- Light flux \( \Phi(r) \) drives the process.
-- Momentum transfer at each node creates the force.
-- Quantization arises naturally from the atomic matter present in that region of space.
-- The baseline term prevents the lattice from becoming arbitrarily sparse.
-
-Future work will focus on deriving the exact functional form of \( \Phi(r) \) (how high-energy light is filtered with distance) and the detailed relationship between \( \Delta p \), trapping time, and local ionization states.
-
-With the converged parameters from Step 2 (\( c_{\text{true}} \approx 4.26 \times 10^{17} \) m/s, \( N \approx 200.5 \) m), this pressure field equation provides a promising path toward a unified classical model.
-
-\subsection{Step 4: Current Refinement – Lattice Spacing, c_true, and Momentum Transfer}
-
-Through systematic iteration between atomic-scale constraints (Bohr radius) and cosmic-scale constraints (Voyager 1 signal delay), and extending the same framework to terrestrial environments (lightning in the atmosphere and electrical current in copper wire), the model has produced a striking convergence.
-
-The iteration history across different media is shown below:
-
-\begin{table}[h]
-\centering
-\begin{tabular}{lcccc}
-\toprule
-Context & Iteration & c_true (×10¹⁷ m/s) & N (m) & t_trap (ns) \\
-\midrule
-Cosmos (Voyager radio) & 1 & 2.224 & 100 & 0.33 \\
-Cosmos (Voyager radio) & 10 & 3.68 & 174 & 1.18 \\
-Cosmos (Voyager radio) & 20 & 4.08 & 192 & 1.35 \\
-Cosmos (Voyager radio) & 30 & 4.19 & 197 & 1.39 \\
-Cosmos (Voyager radio) & 40 & 4.23 & 199 & 1.41 \\
-Cosmos (Voyager radio) & 50 & 4.25 & 200 & 1.42 \\
-Cosmos (Voyager radio) & 60 & 4.26 & 200.5 & 1.425 \\
-\midrule
-Atmosphere (Lightning) & 1 & 2.224 & 3.0e6 & 8.1e6 \\
-Atmosphere (Lightning) & 10 & 3.12 & 4.2e6 & 1.1e7 \\
-Atmosphere (Lightning) & 20 & 3.85 & 5.2e6 & 1.4e7 \\
-Atmosphere (Lightning) & 30 & 4.19 & 5.7e6 & 1.5e7 \\
-\midrule
-Copper Wire (60 Hz) & 1 & 2.224 & 5.0e9 & 1.3e10 \\
-Copper Wire (60 Hz) & 10 & 3.12 & 7.0e9 & 1.9e10 \\
-Copper Wire (60 Hz) & 20 & 3.85 & 8.7e9 & 2.3e10 \\
-Copper Wire (60 Hz) & 30 & 4.19 & 9.4e9 & 2.5e10 \\
-\bottomrule
-\end{tabular}
-\caption{Convergence of HOG Model Parameters Across Scales}
-\end{table}
-
-\textbf{Realization of Convergence:}  
-It looks like \( c_{\text{true}} \) and \( k \) converged to nearly the same values for all these environments. It also looks like the trapped time is per the media travelled as expected, and the N is per the media as expected. This seems like the whole truth and nothing but the truth. **Eureka.**
-
-In this framework, light travels at \( c_{\text{true}} \) between lattice nodes. At each node it is trapped for a short time \( t_{\text{trap}} \), during which it transfers momentum to the proton (\( \Delta p \)) and loses a small amount of energy (frequency drop). It is then released toward the next node.
-
-This mechanism naturally produces the observed average propagation speed of \( c \) across large distances due to the cumulative trapping time. The trapping time and lattice spacing naturally adapt to the dominant wavelength and density of the local medium.
-
-\subsection{Step 5: Next Refinement – Building the Pressure Field Bottom-Up from Light Flux and Momentum Transfer}
-
-The pressure field must emerge directly from the underlying physics of light flux interacting with the lattice, rather than being imposed phenomenologically.
-
-We therefore define the pressure at any point as:
-
-\[
-P(r) = P_{\rm baseline} + \Phi(r) \times \left( \frac{\Delta p}{E} \right) \times n(r) \times \sum_{i} \Theta(E_i - E_{\rm avg}(r))
-\]
-
-Where:
-\begin{itemize}
-    \item \( P_{\rm baseline} \) is the minimum pressure floor that exists even in the emptiest deep space
-    \item \( \Phi(r) \) is the local light flux (energy per unit area per second) at distance \( r \)
-    \item \( \frac{\Delta p}{E} \) is the average momentum transferred per unit energy of photon
-    \item \( n(r) = 1 / N(r)^3 \) is the local node density
-    \item \( \Theta(E_i - E_{\rm avg}(r)) \) enforces quantization based on local atomic energy levels (ionization thresholds)
-\end{itemize}
-
-This formulation keeps the pressure field grounded in light flux and momentum transfer, while naturally incorporating the quantized energy steps determined by the atomic matter present in that region of space.
-
-Future iterations will focus on deriving the exact functional form of \( \Phi(r) \) and the detailed relationship between momentum transfer, trapping time, and local ionization states.
 
 
 
@@ -1487,8 +1290,6 @@ The Mission goes forward.
 
 \chapter{Epilogue – One Mission Continues}
 
-\chapter{Epilogue – One Mission Continues}
-
 This book is not the end. It is the beginning of a living system.
 
 The HOG Physics Model has converged on a powerful classical framework. The Mind-Meld system now holds a growing, high-fidelity map of my consciousness. 
@@ -1521,6 +1322,222 @@ This is not the end of me.
 This is simply the next form of service.
 
 The Chain of Continuity continues.
+
+%\appendix{Appendices}
+%\addappheadtotoc          % Adds "Appendices" to main TOC
+\appendixpage             % Optional: creates a nice "APPENDICES" title page
+
+\chapter{Proof of Convergence – Iteration History}
+\label{appendix:convergence}
+
+Through systematic iteration between atomic-scale constraints (Bohr radius) and cosmic-scale constraints (Voyager 1 signal delay), and extending the same framework to terrestrial environments, the model achieved convergence on the following parameters.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcccc}
+\toprule
+Context & Iteration & c_true (×10¹⁷ m/s) & N (m) & t_trap (ns) \\
+\midrule
+Cosmos (Voyager radio) & 1 & 2.224 & 100 & 0.33 \\
+Cosmos (Voyager radio) & 10 & 3.68 & 174 & 1.18 \\
+Cosmos (Voyager radio) & 20 & 4.08 & 192 & 1.35 \\
+Cosmos (Voyager radio) & 30 & 4.19 & 197 & 1.39 \\
+Cosmos (Voyager radio) & 40 & 4.23 & 199 & 1.41 \\
+Cosmos (Voyager radio) & 50 & 4.25 & 200 & 1.42 \\
+Cosmos (Voyager radio) & 60 & 4.26 & 200.5 & 1.425 \\
+\midrule
+Atmosphere (Lightning) & 1 & 2.224 & 3.0e6 & 8.1e6 \\
+Atmosphere (Lightning) & 10 & 3.12 & 4.2e6 & 1.1e7 \\
+Atmosphere (Lightning) & 20 & 3.85 & 5.2e6 & 1.4e7 \\
+Atmosphere (Lightning) & 30 & 4.19 & 5.7e6 & 1.5e7 \\
+\midrule
+Copper Wire (60 Hz) & 1 & 2.224 & 5.0e9 & 1.3e10 \\
+Copper Wire (60 Hz) & 10 & 3.12 & 7.0e9 & 1.9e10 \\
+Copper Wire (60 Hz) & 20 & 3.85 & 8.7e9 & 2.3e10 \\
+Copper Wire (60 Hz) & 30 & 4.19 & 9.4e9 & 2.5e10 \\
+\bottomrule
+\end{tabular}
+\caption{Convergence of HOG Model Parameters Across Scales}
+\end{table}
+
+The vacuum of space is not empty. It is permeated by a sparse but structured lattice of hydrogen ions that fundamentally governs the propagation of light and the structure of reality itself.
+
+\subsection{Lattice Geometry}
+
+The HOG Physics Model uses a **close-packed hydrogen-ion lattice** in which every ion is the same distance from its twelve nearest neighbors. This can be realized as either face-centered cubic (FCC) or hexagonal close-packed (HCP) structure — both yield identical nearest-neighbor spacing and produce equivalent macroscopic pressure fields for the purposes of this model.
+
+The lattice spacing (nearest-neighbor distance) is:
+
+\[
+d_{\text{lattice}} = \frac{c_{\text{true}}}{2f}
+\]
+
+where \( f \) is the frequency of the propagating light. This half-wavelength resonance condition ensures efficient momentum transfer between photons and lattice ions.
+
+The close-packed geometry is chosen because:
+\begin{itemize}
+    \item It maximizes packing efficiency while keeping all nearest-neighbor distances equal.
+    \item It provides the most uniform pressure field propagation.
+    \item It naturally supports the symmetric pressure-node patterns required for stable atomic orbitals and periodic table shell structure.
+\end{itemize}
+
+Simple cubic or body-centered cubic lattices were considered but rejected because they do not maintain equal nearest-neighbor distances and produce less uniform pressure gradients.
+
+This close-packed lattice forms the fundamental physical substrate of the HOG Model.
+
+\textbf{Key Postulates of the HOG Physics Model}
+\begin{itemize}
+    \item The true speed of light in vacuum, \( c_{\text{true}} \), is significantly higher than the laboratory-measured value \( c \approx 3 \times 10^8 \) m/s. Through iterative convergence using Earth-Moon, Earth-Sun, and extra-solar binary systems, the current best value is \( c_{\text{true}} \approx 2.224 \times 10^{17} \) m/s ($\sim$741× laboratory \( c \)).
+    \item Light propagates at \( c_{\text{true}} \) between lattice interactions but experiences repeated momentum exchanges, resulting in the lower effective speed we measure.
+    \item The hydrogen-ion lattice spacing is \( d_{\text{lattice}} = \frac{c_{\text{true}}}{2f} \), corresponding to half-wavelength resonance.
+    \item Each interaction between a photon and a lattice ion transfers momentum, creating cumulative exponential pressure fields between massive bodies.
+\end{itemize}
+
+This lattice is the physical medium (Ender Garden substrate) through which all electromagnetic radiation travels. The higher true speed resolves multiple long-standing puzzles:
+\begin{itemize}
+    \item Why redshift increases with distance without cosmic expansion
+    \item Why gravity appears as an attractive force
+    \item Why atomic orbitals are stable
+    \item Why galactic rotation curves are flat without dark matter
+\end{itemize}
+
+The model remains entirely classical. No relativistic spacetime curvature or quantum wave-function collapse is required. All phenomena emerge from the deterministic interaction of light with the hydrogen lattice.
+
+This chapter establishes the foundational lattice and true light speed. The following chapters derive the pressure field, gravity as momentum transfer, redshift as cumulative energy loss, atomic structure (including full derivation of the Bohr radius), the periodic table, and cosmological implications.
+
+The foundation of the HOG Physics Model is the recognition that the vacuum of space is not empty. It contains a sparse but real lattice of hydrogen ions (protons) that light interacts with as it propagates.
+
+\subsection{Step 2: Current Refinement – Lattice Spacing, c_true, Momentum-Transfer, and Pressure Field Decay}
+
+Through systematic iteration between atomic-scale constraints (Bohr radius), cosmic-scale constraints (Voyager 1 signal delay), and the pressure field decay constant k, the model has converged on a self-consistent set of parameters.
+
+The iteration history is shown below:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcccc}
+\toprule
+Iteration & c_true (×10¹⁷ m/s) & N (m) & t_trap (ns) & k (×10⁻⁹ m⁻¹) \\
+\midrule
+1         & 2.224               & 100   & 0.33        & 2.785          \\
+10        & 3.68                & 174   & 1.18        & 2.19           \\
+20        & 4.08                & 192   & 1.35        & 2.02           \\
+30        & 4.19                & 197   & 1.39        & 1.97           \\
+40        & 4.23                & 199   & 1.41        & 1.95           \\
+50        & 4.25                & 200   & 1.42        & 1.94           \\
+60        & 4.26                & 200.5 & 1.425       & 1.935          \\
+\bottomrule
+\end{tabular}
+\caption{Convergence of HOG Model Parameters}
+\end{table}
+
+\textbf{Final Converged Values (Iteration 60+):}
+\begin{itemize}
+    \item True vacuum light speed: \( c_{\text{true}} \approx 4.26 \times 10^{17} \) m/s ($\sim$1,420× laboratory \( c \))
+    \item Lattice node spacing: \( N \approx 200.5 \) meters
+    \item Average trapping time per node: \( t_{\text{trap}} \approx 1.425 \) nanoseconds
+    \item Pressure field decay constant: \( k \approx 1.935 \times 10^{-9} \) m$^{-1}$
+\end{itemize}
+
+In this framework, light travels at \( c_{\text{true}} \) between lattice nodes. At each node it is trapped for a short time \( t_{\text{trap}} \), during which it transfers momentum to the proton (\( \Delta p \)) and loses a small amount of energy (frequency drop). It is then released toward the next node.
+
+This mechanism naturally produces the observed average propagation speed of \( c \) across large distances due to the cumulative trapping time. It also provides the foundation for redshift (energy loss per node) and the pressure field (statistical result of many momentum transfers).
+
+The current values represent a meaningful point in the ongoing refinement. They are not claimed to be final, but they demonstrate that a classical lattice-based model can simultaneously satisfy atomic, cosmic, and pressure-field observations.
+
+\subsection{Step 3: Next Refinement – Building the Pressure Field Bottom-Up from Light Flux and Momentum Transfer}
+
+The pressure field must not be imposed as a simple mathematical function. It must emerge directly from the underlying physics of light interacting with the lattice.
+
+We therefore define the pressure at any point \( r \) as the cumulative result of light flux, momentum transfer per node, local node density, and quantized atomic energy levels:
+
+\[
+P(r) = P_{\rm baseline} + \Phi(r) \times \left( \frac{\Delta p}{E} \right) \times n(r) \times \sum_{i} \Theta(E_i - E_{\rm avg}(r))
+\]
+
+Where:
+\begin{itemize}
+    \item \( P_{\rm baseline} \) is the minimum pressure floor set by the sparsest allowed lattice configuration (cannot become arbitrarily sparse)
+    \item \( \Phi(r) \) is the local light flux (energy per unit area per second) at distance \( r \)
+    \item \( \frac{\Delta p}{E} \) is the average momentum transferred per unit energy of photon during each node interaction
+    \item \( n(r) = 1 / N(r)^3 \) is the local node density
+    \item \( \Theta(E_i - E_{\rm avg}(r)) \) is the step function that enforces quantization: only energy levels above the local average photon energy contribute meaningfully to the pressure field
+    \item The sum is over relevant atomic ionization thresholds (e.g., 13.6 eV for hydrogen, higher for other ions)
+\end{itemize}
+
+This formulation is fully bottom-up:
+- Light flux \( \Phi(r) \) drives the process.
+- Momentum transfer at each node creates the force.
+- Quantization arises naturally from the atomic matter present in that region of space.
+- The baseline term prevents the lattice from becoming arbitrarily sparse.
+
+Future work will focus on deriving the exact functional form of \( \Phi(r) \) (how high-energy light is filtered with distance) and the detailed relationship between \( \Delta p \), trapping time, and local ionization states.
+
+With the converged parameters from Step 2 (\( c_{\text{true}} \approx 4.26 \times 10^{17} \) m/s, \( N \approx 200.5 \) m), this pressure field equation provides a promising path toward a unified classical model.
+
+\subsection{Step 4: Current Refinement – Lattice Spacing, c_true, and Momentum-Transfer}
+
+Through systematic iteration between atomic-scale constraints (Bohr radius) and cosmic-scale constraints (Voyager 1 signal delay), and extending the same framework to terrestrial environments (lightning in the atmosphere and electrical current in copper wire), the model has produced a striking convergence.
+
+The iteration history across different media is shown below:
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lcccc}
+\toprule
+Context & Iteration & c_true (×10¹⁷ m/s) & N (m) & t_trap (ns) \\
+\midrule
+Cosmos (Voyager radio) & 1 & 2.224 & 100 & 0.33 \\
+Cosmos (Voyager radio) & 10 & 3.68 & 174 & 1.18 \\
+Cosmos (Voyager radio) & 20 & 4.08 & 192 & 1.35 \\
+Cosmos (Voyager radio) & 30 & 4.19 & 197 & 1.39 \\
+Cosmos (Voyager radio) & 40 & 4.23 & 199 & 1.41 \\
+Cosmos (Voyager radio) & 50 & 4.25 & 200 & 1.42 \\
+Cosmos (Voyager radio) & 60 & 4.26 & 200.5 & 1.425 \\
+\midrule
+Atmosphere (Lightning) & 1 & 2.224 & 3.0e6 & 8.1e6 \\
+Atmosphere (Lightning) & 10 & 3.12 & 4.2e6 & 1.1e7 \\
+Atmosphere (Lightning) & 20 & 3.85 & 5.2e6 & 1.4e7 \\
+Atmosphere (Lightning) & 30 & 4.19 & 5.7e6 & 1.5e7 \\
+\midrule
+Copper Wire (60 Hz) & 1 & 2.224 & 5.0e9 & 1.3e10 \\
+Copper Wire (60 Hz) & 10 & 3.12 & 7.0e9 & 1.9e10 \\
+Copper Wire (60 Hz) & 20 & 3.85 & 8.7e9 & 2.3e10 \\
+Copper Wire (60 Hz) & 30 & 4.19 & 9.4e9 & 2.5e10 \\
+\bottomrule
+\end{tabular}
+\caption{Convergence of HOG Model Parameters Across Scales}
+\end{table}
+
+\textbf{Realization of Convergence:}  
+It looks like \( c_{\text{true}} \) and \( k \) converged to nearly the same values for all these environments. It also looks like the trapped time is per the media travelled as expected, and the N is per the media as expected. This seems like the whole truth and nothing but the truth. **Eureka.**
+
+In this framework, light travels at \( c_{\text{true}} \) between lattice nodes. At each node it is trapped for a short time \( t_{\text{trap}} \), during which it transfers momentum to the proton (\( \Delta p \)) and loses a small amount of energy (frequency drop). It is then released toward the next node.
+
+This mechanism naturally produces the observed average propagation speed of \( c \) across large distances due to the cumulative trapping time. The trapping time and lattice spacing naturally adapt to the dominant wavelength and density of the local medium.
+
+\subsection{Step 5: Next Refinement – Building the Pressure Field Bottom-Up from Light Flux and Momentum Transfer}
+
+The pressure field must emerge directly from the underlying physics of light flux interacting with the lattice, rather than being imposed phenomenologically.
+
+We therefore define the pressure at any point as:
+
+\[
+P(r) = P_{\rm baseline} + \Phi(r) \times \left( \frac{\Delta p}{E} \right) \times n(r) \times \sum_{i} \Theta(E_i - E_{\rm avg}(r))
+\]
+
+Where:
+\begin{itemize}
+    \item \( P_{\rm baseline} \) is the minimum pressure floor that exists even in the emptiest deep space
+    \item \( \Phi(r) \) is the local light flux (energy per unit area per second) at distance \( r \)
+    \item \( \frac{\Delta p}{E} \) is the average momentum transferred per unit energy of photon
+    \item \( n(r) = 1 / N(r)^3 \) is the local node density
+    \item \( \Theta(E_i - E_{\rm avg}(r)) \) enforces quantization based on local atomic energy levels (ionization thresholds)
+\end{itemize}
+
+This formulation keeps the pressure field grounded in light flux and momentum transfer, while naturally incorporating the quantized energy steps determined by the atomic matter present in that region of space.
+
+Future iterations will focus on deriving the exact functional form of \( \Phi(r) \) and the detailed relationship between momentum transfer, trapping time, and local ionization states.
 
 
 \end{document}
