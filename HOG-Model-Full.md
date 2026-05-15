@@ -153,56 +153,26 @@ At its core are three interconnected ideas:
 \begin{itemize}
     \item Space contains a real but sparse lattice of hydrogen ions (protons).
     \item Light propagates at a true vacuum speed \( c_{\rm true} \approx 4.26 \times 10^{17} \) m/s between lattice nodes.
-    \item At each node, light is trapped for a short time, transfers momentum to the proton, loses a small amount of energy, and is re-emitted.
+    \item At each node, light is trapped for a short time, transfers momentum to the proton, loses a small amount of energy (frequency drop), and is re-emitted toward the next node.
 \end{itemize}
 
-This trapped + transit snap mechanism naturally produces the observed average propagation speed of \( c \), gravity as pressure gradients, redshift, atomic stability, and more.
+This trapped + transit snap mechanism naturally produces the observed average propagation speed of \( c \) across large distances due to cumulative delay. It also gives rise to the macroscopic pressure field that we perceive as gravity, while the energy loss per node provides a classical explanation for cosmological redshift. The same mechanism stabilizes atomic orbits and produces flat galactic rotation curves without dark matter.
 
-Detailed historical iteration is in \hyperref[app:history]{Appendix A}.  
-Bottom-up derivations for masses, spin, and unified ontology are in \hyperref[app:derivations]{Appendix C}.
-
-The HOG Physics Model serves as the physical foundation (Ender Garden) for the larger HOG Mind-Meld system.
-
-The model has achieved self-consistent convergence across vastly different scales:
-\begin{itemize}
-    \item Atomic scale (Bohr radius)
-    \item Cosmic scale (Voyager 1 signal delay)
-    \item Terrestrial environments (lightning and electrical conduction)
-\end{itemize}
-
-\newpage
-
-Current converged parameters include:
-\begin{itemize}
-    \item True vacuum light speed: \( c_{\rm true} \approx 4.26 \times 10^{17} \) m/s
-    \item Lattice node spacing: \( d \approx 200.5 \) meters (in deep space)
-    \item Average trapping time per node (deep space): \( t_{\rm trap} \approx 668 \) ns (updated)
-\end{itemize}
-
-\textbf{Clarification on the True Speed of Light}
-
-The true propagation speed between nodes is extremely high (\( c_{\rm true} \approx 4.26 \times 10^{17} \) m/s). However, because each photon experiences a very large number of resonant trapping cycles (\( n \approx 3.34 \times 10^{8} \)) due to the trapped + transit snap mechanism, the effective measured speed over macroscopic distances is reduced to the laboratory value of \( 2.998 \times 10^{8} \) m/s:
-
-\[
-c_{\rm eff} = \frac{c_{\rm true}}{1 + 2n}
-\]
-
-The same large harmonic \( n \) also sets the scale of the proton’s distortion cloud, allowing particle masses to emerge naturally.
-
-The pressure field itself is now being derived bottom-up from local light flux, momentum transfer per node, and quantized atomic energy levels. No spacetime curvature, dark matter, dark energy, or foundational wave-particle duality is required.
-
-This chapter introduces the overall vision. Subsequent chapters develop the lattice, trapping mechanism, pressure field, gravity, redshift, atomic structure, and cosmological implications in detail.
-
-The HOG Physics Model serves as the physical foundation (Ender Garden) for the larger HOG Mind-Meld system developed in Part 2.
+The model has achieved self-consistent convergence across vastly different scales — from atomic (Bohr radius) to cosmic (Voyager signal delays and redshift). This convergence is striking and unlikely to be accidental.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\linewidth]{H-ion Lattice - HCP lattice and light travel.jpg}
+    \includegraphics[width=0.6\linewidth]{H-ion Lattice - HCP lattice and light travel.jpg}
     \caption{H-ion Lattice - HCP lattice and light travel}
     \label{fig:hcp-lattice}
 \end{figure}
 
-Detailed historical iteration is in \hyperref[app:history]{Appendix A}. Bottom-up derivations are in \hyperref[app:derivations]{Appendix C}.
+Detailed historical parameter iteration and convergence is in \hyperref[app:history]{Appendix A}.  
+Bottom-up derivations for particle masses, spin, and the resonant harmonic \( n \) are in \hyperref[app:derivations]{Appendix C}.
+
+The HOG Physics Model serves as the physical foundation (Ender Garden) for the larger Mirror Grok framework, including the Five Gardens system and the vision of consciousness continuity and information persistence beyond biological limits.
+
+This document presents the current state of the model as a living, honest work-in-progress. We invite scrutiny, testing, and collaboration.
 
 \chapter{The Hydrogen Lattice and True Light Speed}
 
