@@ -152,11 +152,15 @@ The HOG Physics Model proposes a unified classical framework for reality based o
 At its core are three interconnected ideas:
 \begin{itemize}
     \item Space contains a real but sparse lattice of hydrogen ions (protons).
-    \item Light propagates at a true vacuum speed \( c_{\rm true} \approx 4.26 \times 10^{17} \) m/s ($\sim$1,420× laboratory \( c \)) between lattice nodes.
-    \item At each node, light is trapped for a short time, transfers momentum to the proton, loses a small amount of energy (frequency drop), and is then released toward the next node.
+    \item Light propagates at a true vacuum speed \( c_{\rm true} \approx 4.26 \times 10^{17} \) m/s between lattice nodes.
+    \item At each node, light is trapped for a short time, transfers momentum to the proton, loses a small amount of energy, and is re-emitted.
 \end{itemize}
 
-This trapping + momentum transfer mechanism naturally produces the observed average propagation speed of \( c \) across large distances due to cumulative delay. It also gives rise to the macroscopic pressure field that we perceive as gravity, while the energy loss per node provides a classical explanation for cosmological redshift.
+This trapped + transit snap mechanism naturally produces the observed average propagation speed of \( c \), gravity as pressure gradients, redshift, atomic stability, and more.
+
+Detailed derivations for particle masses, spin, and the full bottom-up framework are in \hyperref[app:derivations]{Appendix B}.
+
+The model serves as the physical foundation (Ender Garden) for the larger HOG Mind-Meld system.
 
 The model has achieved self-consistent convergence across vastly different scales:
 \begin{itemize}
@@ -199,9 +203,19 @@ The HOG Physics Model serves as the physical foundation (Ender Garden) for the l
 
 \chapter{The Hydrogen Lattice and True Light Speed}
 
-The foundation of the HOG model is a sparse but real lattice of hydrogen ions (protons) distributed throughout space. Light does not travel continuously at the laboratory speed \( c \). Instead, it propagates at a much higher true vacuum speed \( c_{\rm true} \) between lattice nodes, gets briefly trapped at each proton, transfers momentum, loses a tiny amount of energy, and is re-emitted toward the next node.
+The foundation of the HOG model is a sparse but real lattice of hydrogen ions (protons). Light propagates at true speed \( c_{\rm true} \) between nodes, experiences resonant trapping, and snaps forward.
 
-This trapped + transit snap mechanism is the single physical process that produces all the major effects in the model.
+See \hyperref[app:parameters]{Appendix A} for the full updated parameters and historical iteration table.
+
+\textbf{Clarification on True vs Effective Light Speed}
+
+The true speed is \( c_{\rm true} \approx 4.26 \times 10^{17} \) m/s. The large resonant harmonic \( n \approx 3.34 \times 10^{8} \) reduces it to the observed \( c_{\rm eff} \approx 2.998 \times 10^{8} \) m/s (see \hyperref[app:derivations]{Appendix B} for the full derivation).
+
+\textbf{Medium-Dependent Trapping}
+
+Trapping is quantized to the local atom/ion resonance. Consistency across deep space, atmosphere, and copper is shown in \hyperref[app:medium]{Appendix C}.
+
+The historical convergence process is preserved in \hyperref[app:parameters]{Appendix A}.
 
 \subsection{Updated Core Parameters (May 16, 2026)}
 
@@ -248,6 +262,10 @@ The historical iteration process that led to these converged parameters is prese
 This chapter establishes the lattice mechanics. The following chapters explore the emergent phenomena (gravity, redshift, atomic stability) and the full bottom-up derivations for masses and spin.
 
 \chapter{Emergent Phenomena from the Lattice}
+
+Gravity, redshift, atomic stability, and galactic rotation curves all emerge from the same trapped + transit mechanism.
+
+Detailed mathematical derivations and numerical tables for these phenomena are located in \hyperref[app:derivations]{Appendix B}.
 
 With the hydrogen lattice and trapped + transit snap mechanism established, the major observed phenomena in physics emerge naturally as different expressions of the same underlying process.
 
@@ -1434,9 +1452,10 @@ This is simply the next form of service.
 
 The Chain of Continuity continues.
 
+\part{Part 5: Appendices}
+\appendix
 %\appendix{Appendices}
 %\addappheadtotoc          % Adds "Appendices" to main TOC
-\appendixpage             % Optional: creates a nice "APPENDICES" title page
 
 \chapter{Proof of Convergence – Iteration History}
 \label{appendix:convergence}
@@ -1721,7 +1740,7 @@ We are not claiming perfection. We are claiming a coherent, classical foundation
 
 This is where it gets real.
 
-\appendix
+
 
 \chapter{Technical Details, Historical Development, and Supporting Calculations}
 
