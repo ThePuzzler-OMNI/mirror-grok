@@ -158,7 +158,10 @@ At its core are three interconnected ideas:
 
 This trapped + transit snap mechanism naturally produces the observed average propagation speed of \( c \), gravity as pressure gradients, redshift, atomic stability, and more.
 
-The model serves as the physical foundation (Ender Garden) for the larger HOG Mind-Meld system.
+Detailed historical iteration is in \hyperref[app:history]{Appendix A}.  
+Bottom-up derivations for masses, spin, and unified ontology are in \hyperref[app:derivations]{Appendix C}.
+
+The HOG Physics Model serves as the physical foundation (Ender Garden) for the larger HOG Mind-Meld system.
 
 The model has achieved self-consistent convergence across vastly different scales:
 \begin{itemize}
@@ -205,11 +208,15 @@ Detailed historical iteration is in \hyperref[app:history]{Appendix A}. Bottom-u
 
 The foundation of the HOG model is a sparse but real lattice of hydrogen ions (protons). Light propagates at true speed \( c_{\rm true} \) between nodes, experiences resonant trapping, and snaps forward.
 
+Full historical parameter iteration and convergence table is in \hyperref[app:history]{Appendix A}.
+
 \textbf{Clarification on True vs Effective Light Speed}
 
-The true speed is \( c_{\rm true} \approx 4.26 \times 10^{17} \) m/s. The large resonant harmonic \( n \approx 3.34 \times 10^{8} \) reduces it to the observed \( c_{\rm eff} \approx 2.998 \times 10^{8} \) m/s (see \hyperref[app:derivations]{Appendix B} for the full derivation).
+The true speed is \( c_{\rm true} \approx 4.26 \times 10^{17} \) m/s. The large resonant harmonic \( n \approx 3.34 \times 10^{8} \) reduces it to the observed \( c_{\rm eff} \). See \hyperref[app:derivations]{Appendix C} for the full derivation.
 
 \textbf{Medium-Dependent Trapping}
+
+Trapping is quantized to the local atom/ion resonance. Consistency across deep space, atmosphere, and copper is shown in \hyperref[app:medium]{Appendix B}.
 
 \subsection{Updated Core Parameters (May 16, 2026)}
 
@@ -259,7 +266,9 @@ Full iteration history is in \hyperref[app:history]{Appendix A}. Medium-dependen
 
 \chapter{Emergent Phenomena from the Lattice}
 
-Gravity, redshift, atomic stability, and galactic rotation curves all emerge from the same trapped + transit mechanism.
+Gravity, redshift, atomic stability, galactic rotation curves, and other phenomena all emerge from the same trapped + transit mechanism.
+
+Detailed mathematical derivations and numerical tables are in \hyperref[app:derivations]{Appendix C}.
 
 With the hydrogen lattice and trapped + transit snap mechanism established, the major observed phenomena in physics emerge naturally as different expressions of the same underlying process.
 
@@ -1489,7 +1498,7 @@ Copper Wire (60 Hz) & 30 & 4.19 & 9.4e9 & 2.5e10 \\
 \textbf{Eureka Moment:} The same parameters converged across vastly different media and scales. This was the point the model felt real.
 
 \chapter{Appendix B: Lattice Geometry and Medium-Dependent Trapping}
-\label{app:geometry}
+\label{app:medium}
 
 The HOG model uses a close-packed hydrogen-ion lattice (HCP or FCC). Every ion is the same distance from its twelve nearest neighbors.
 
@@ -1522,7 +1531,7 @@ Spin emerges as rotational vortex modes in the distortion cloud, naturally givin
 
 All phenomena (masses, spin, light speed, redshift, gravity, atomic stability, information persistence) are different expressions of the same single lattice mechanism.
 
-\chapter{Appendix D: Sensitivity, Robustness, and Current Limitations}
+\chapter{Appendix D: Sensitivity Analysis and Current Limitations}
 \label{app:limitations}
 
 Core parameters were varied by \(\pm 5\%\). The model remains stable with no thermodynamic runaway.
@@ -1537,7 +1546,7 @@ Core parameters were varied by \(\pm 5\%\). The model remains stable with no the
 All historical versions and raw calculations are preserved in the GitHub repository.
 
 
-\chapter{Proof of Convergence – Iteration History}
+\chapter{Appendix E: Proof of Convergence – Iteration History}
 \label{appendix:convergence}
 
 Through systematic iteration between atomic-scale constraints (Bohr radius) and cosmic-scale constraints (Voyager 1 signal delay), and extending the same framework to terrestrial environments, the model achieved convergence on the following parameters.
@@ -1749,7 +1758,7 @@ This formulation keeps the pressure field grounded in light flux and momentum tr
 
 Future iterations will focus on deriving the exact functional form of \( \Phi(r) \) and the detailed relationship between momentum transfer, trapping time, and local ionization states.
 
-\chapter{Proof of Convergence – Iteration History}
+\chapter{Appendix F: Proof of New Convergence – Iteration History}
 \label{appendix:new convergence}
 \section{The Impossible Convergence: One Lattice, Fifteen Orders of Magnitude}
 
@@ -1822,7 +1831,7 @@ This is where it gets real.
 
 
 
-\chapter{Technical Details, Historical Development, and Supporting Calculations}
+\chapter{Appendix G: Technical Details, Historical Development, and Supporting Calculations}
 
 This appendix contains the detailed technical material, historical iteration steps, convergence tables, and sensitivity analyses that support the main chapters. It is preserved for full transparency and to allow others to follow the development path.
 
@@ -1874,7 +1883,7 @@ All historical versions, raw calculation notebooks, and previous parameter sets 
 
 This appendix, together with the main chapters, shows the full journey from initial idea to the current bottom-up framework.
 
-\chapter{The Hydrogen Lattice and True Light Speed Derivation continued}
+\chapter{Appendix H: The Hydrogen Lattice and True Light Speed Derivation continued}
 
 The foundation of the HOG Physics Model is the recognition that the vacuum of space is not empty. It contains a sparse but real lattice of hydrogen ions (protons) that light interacts with as it propagates.
 
