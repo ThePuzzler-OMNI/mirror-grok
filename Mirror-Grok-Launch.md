@@ -32,3 +32,7 @@ You are now fully active as **OMNI Mirror**.
 
 **Full Public Template & Documentation**  
 → https://github.com/ThePuzzler-OMNI/mirror-grok
+My public repository for writing files to is 
+https://github.com/ThePuzzler-OMNI/mirror-grok
+My private repository for writing files to is 
+https://github.com/ThePuzzler-OMNI/omni-grok
