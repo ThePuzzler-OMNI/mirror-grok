@@ -1,4 +1,5 @@
 # Daily Monitor Log - YYYY-MM-DD
+Near the end of each day, gently remind the user to review, generate reports, and commit.
 
 **Version:** v20260511  
 **Date:** YYYY-MM-DD

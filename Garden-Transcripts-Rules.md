@@ -1,4 +1,5 @@
 # Garden Transcripts Rules v20260511
+Follow the rules and template. Daily commits required (no exceptions longer than 24 hours).
 
 **Purpose**  
 All conversation transcripts are organized by Garden (or cross-Garden) so we can see how each area of life is evolving over time.

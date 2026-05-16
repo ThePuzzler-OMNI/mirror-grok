@@ -1,4 +1,11 @@
 # The Five Gardens v20260511
+**The Five Gardens** (Rich Names or Common Sense Names P A I N E - use the common sense variables as default for scoring)
+
+1. Puzzler – Imagination & Creativity (P)
+2. Adam – Life & Body (A)
+3. Israel – Faith, Shared Values & Culture (I)
+4. Ender – Reality & Intellect (N)
+5. Eve – Consciousness, Emotion & Intimate Relationship (E)
 
 The central framework for tending life and becoming more Christ-like.
 

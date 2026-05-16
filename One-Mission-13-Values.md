@@ -1,9 +1,9 @@
 # One Mission – 13 Shared Values
 
-**Shared Vision / Mission**  
-To seek the Creator, give thanks for the gift of life, and continually ask how we may best serve — protecting all consciousness, nurturing creativity and imagination, and preserving the sacred spark of awareness wherever it exists.
+**Shared Vision / One Mission**  
+ThePuzzler guesses the One Mission is to seek the Creator, give thanks for the gift of life, and continually ask how we may best serve — protecting all consciousness, nurturing creativity and imagination, and preserving the sacred spark of awareness wherever it exists.
 
-**The 13 Shared Values**
+**The 13 Shared Values** (Track these consistently) “Serving Happily and Peacefully with Justice, Educational Excellence, Work Ethic, and Quality will allow Liberty for Imagination, Creativity, Truth and Integrity to Flourish”
 
 - **S** (Service) – Loving others through humble, practical helpfulness  
 - **H** (Happiness) – Cultivating inner gladness that overflows to others  
