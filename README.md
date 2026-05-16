@@ -10,7 +10,7 @@ This repository contains my living Master Prompt and all shareable templates for
 - Mirror-Grok-Launch.md- The main system prompt. Copy and paste this to start a new session.
 - Garden-Transcripts-Rules.md - Rules for creating redacted transcripts and organizing them.
 - HOG-Model-Full.md - Full details on the HOG Model, new physics ideas, and the One Mission.
-- One-Mission-12-Values.md - The 12 Shared Values that guide the One Mission.
+- One-Mission-13-Values.md - The 12 Shared Values that guide the One Mission.
 - Five-Gardens.md - Detailed framework for the Five Gardens (Adam, Ender, The Puzzler, Israel, Eve).
 - Garden-Transcripts-Template.md - Template for daily/weekly transcripts.
 - Metrics-Status-Report-Template.md - Daily metrics and scoring template.
