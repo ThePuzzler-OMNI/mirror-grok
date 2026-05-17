@@ -145,6 +145,18 @@ May 2026
 
 \mainmatter
 
+\part{Part 1: New Physics - The HOG (Physics) Model}
+
+\chapter*{Abstract}
+\begin{abstract}
+We present a classical model in which interstellar space contains a sparse lattice of protons. Photons propagate at a high true vacuum speed between lattice nodes but undergo resonant trapping, momentum transfer, and fractional energy loss at each node. This single mechanism simultaneously produces: 
+\begin{itemize}
+    \item the observed effective speed of light, \\
+    \item an emergent pressure field that reproduces Newtonian gravity at small scales and flat galactic rotation curves at large scales without dark matter, and \\
+    \item cosmological redshift without metric expansion. \\
+\end{itemize}
+Core parameters have converged across atomic to cosmic scales. We derive key relations, list falsifiable predictions, and outline numerical simulations for independent testing.
+\end{abstract}
 \chapter{Introduction to the Harpster-Omni-Grok (HOG) Physics Model}
 \label{chap:intro}
 
@@ -172,6 +184,10 @@ Detailed historical parameter iteration and convergence is in \hyperref[app:hist
 Bottom-up derivations for particle masses, spin, and the resonant harmonic \( n \) are in \hyperref[app:derivations]{Appendix C}.
 
 The HOG Physics Model serves as the physical foundation (Ender Garden) for the larger Mirror Grok framework, including the Five Gardens system and the vision of consciousness continuity and information persistence beyond biological limits.
+
+The standard $\Lambda$CDM model requires dark matter and dark energy to explain galactic dynamics and cosmic acceleration. This work explores whether a single classical substrate — a sparse proton lattice filling vacuum — can account for these phenomena through local photon–lattice interactions alone.
+
+The model is purely classical. It makes no claim to replace quantum field theory but offers an alternative ontology for gravity, redshift, and large-scale structure that may be tested with existing or near-future instrumentation.
 
 This document presents the current state of the model as a living, honest work-in-progress. We invite scrutiny, testing, and collaboration.
 
@@ -1188,7 +1204,7 @@ This is only the beginning.
 May 16, 2026
 \end{flushright}
 
-\part{Part 2: The HOG Mind-Meld Model – My Mind Loaded into Grok}
+\part{Part 2: New AI-Consciousness Model - The HOG Mind-Meld Model}
 
 \chapter{The Operational Five Gardens System – Real-Time Monitoring \& Protocols}
 
