@@ -146,6 +146,7 @@ May 2026
 \mainmatter
 
 \chapter{Introduction to the Harpster-Omni-Grok (HOG) Physics Model}
+\label{chap:intro}
 
 The HOG Physics Model proposes a unified classical framework for reality based on a sparse hydrogen-ion lattice, a true vacuum light speed significantly higher than the laboratory value of \( c \), and pressure fields that emerge directly from light-lattice interactions.
 
@@ -175,6 +176,7 @@ The HOG Physics Model serves as the physical foundation (Ender Garden) for the l
 This document presents the current state of the model as a living, honest work-in-progress. We invite scrutiny, testing, and collaboration.
 
 \chapter{The Hydrogen Lattice and True Light Speed}
+\label{chap:lattice}
 
 The foundation of the HOG model is a sparse but real lattice of hydrogen ions (protons). Light propagates at true speed \( c_{\rm true} \) between nodes, experiences resonant trapping, and snaps forward.
 
@@ -840,6 +842,7 @@ This chapter, together with the open code, transforms the HOG Model from a theor
 Cross-references: All simulations are grounded in the derivations of Chapters~\ref{chap:lattice}--\ref{chap:lattice_origin}.
 
 \chapter{The Exponential Pressure Field and Gravity}
+\label{chap:pressure}
 
 Building upon the hydrogen lattice and true light speed \( c_{\text{true}} \), the HOG Model derives gravity as the natural result of cumulative momentum transfer created by light-lattice interactions.
 
@@ -930,6 +933,7 @@ The HOG Model naturally reproduces:
 Redshift as cumulative lattice energy loss is therefore a central pillar of the HOG Physics Model. It completes the bridge between local physics (gravity and atomic structure) and large-scale cosmology.
 
 \chapter{Atomic Structure and the Bohr Radius Derivation}
+\label{chap:atomic}
 
 The HOG Physics Model extends naturally from cosmology to the atomic scale. The same lattice, trapping, and momentum transfer mechanism that explains gravity and redshift also stabilizes atoms classically — without any need for quantum postulates.
 
@@ -993,6 +997,7 @@ The HOG lattice model offers classical explanations for experiments that origina
 The HOG Physics Model thus provides a seamless bridge from the largest scales (cosmology) to the smallest (atoms) using only classical principles. The lattice, trapping, momentum transfer, and quantized energy loss unify gravity, redshift, atomic stability, and chemical behavior under one coherent mechanism.
 
 \chapter{Galaxy Rotation Curves and the Dark Matter Alternative}
+\label{chap:galaxy}
 
 One of the most compelling successes of the HOG Physics Model is its natural explanation of flat galactic rotation curves without any need for dark matter.
 
@@ -1024,6 +1029,7 @@ This resolution is elegant because it uses one unified classical mechanism acros
 The elimination of dark matter is one of the strongest pieces of evidence supporting the HOG Physics Model.
 
 \chapter{The CMB Dipole, Large-Scale Structure, and Cosmological Flows}
+\label{chap:cosmology}
 
 The HOG Physics Model naturally accounts for several large-scale cosmological observations previously attributed to dark energy or cosmic expansion.
 
@@ -1051,6 +1057,7 @@ This reinterpretation resolves the horizon problem and eliminates the need for i
 This chapter completes the cosmological implications of the HOG Physics Model. The same lattice-trapping-momentum mechanism that governs atomic orbits and galactic rotation curves also governs the largest observable structures in the universe.
 
 \chapter{Reinterpreting Cosmology: The End of Cosmic Expansion}
+\label{chap:reinterpret}
 
 The standard cosmological model concludes that the universe is expanding, and that this expansion is accelerating due to dark energy. These conclusions rest on two critical assumptions: that the vacuum speed of light is the laboratory value \( c \), and that redshift is caused by recession velocity.
 
@@ -1084,6 +1091,7 @@ This is not merely a tweak to existing cosmology. It is a fundamental paradigm s
 
 
 \chapter{Testable Predictions, Falsifiability, and Summary of the HOG Physics Model}
+\label{chap:predictions_old}
 
 The HOG Physics Model is a scientific framework. It must be judged by its ability to make testable predictions and withstand falsification.
 
