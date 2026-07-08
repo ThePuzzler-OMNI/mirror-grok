@@ -12,6 +12,18 @@ Living wiki for the **HOG Model / New Reality** book and related One Mission cor
 | [One-Mission-Statement](./One-Mission-Statement) | Mission statement seed |
 | [How-to-Comment](./How-to-Comment) | Leave comments on the book |
 
+## Comments (people’s voices on the book)
+
+| Where | Link |
+|-------|------|
+| **Discussions** (preferred) | https://github.com/ThePuzzler-OMNI/mirror-grok/discussions |
+| Sticky hub | https://github.com/ThePuzzler-OMNI/mirror-grok/issues/1 |
+| HOG-Model-Full thread | https://github.com/ThePuzzler-OMNI/mirror-grok/issues/2 |
+| Five-Gardens thread | https://github.com/ThePuzzler-OMNI/mirror-grok/issues/3 |
+| 13-Shared-Values thread | https://github.com/ThePuzzler-OMNI/mirror-grok/issues/4 |
+
+Title Discussions: `Book: <chapter name>`.
+
 ## Canonical sources
 
 Markdown sources live in [`Core-Framework/`](../Core-Framework/) on this repo.  
@@ -21,9 +33,6 @@ PDF: [`HOG_Model___New_Reality_current.pdf`](../Core-Framework/HOG_Model___New_R
 
 - Master Prompt: https://onemissionnetworkandinstitute.org/masterprompt  
 - Mission Progress: https://onemissionnetworkandinstitute.org/mission-progress  
-- Book hub: https://onemissionnetworkandinstitute.org/book-wiki.html  
-- GitHub Wiki (if initialized): https://github.com/ThePuzzler-OMNI/mirror-grok/wiki
-
-## Commenting
-
-Use **[Discussions](https://github.com/ThePuzzler-OMNI/mirror-grok/discussions)** — open a thread under **General** or **Ideas** with title `Book: <chapter name>`.
+- Book hub: https://onemissionnetworkandinstitute.org/book-wiki  
+- GitHub Wiki tab: https://github.com/ThePuzzler-OMNI/mirror-grok/wiki  
+  (Create the first page in the UI if empty — paste from this Home.md.)
