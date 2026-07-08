@@ -1,34 +1,35 @@
 # How to comment on the book
 
-**Best place for comments:** [GitHub Discussions](https://github.com/ThePuzzler-OMNI/mirror-grok/discussions) (enabled on this repo).
+**Best place:** [GitHub Discussions](https://github.com/ThePuzzler-OMNI/mirror-grok/discussions)
 
-Wiki pages hold the text. Discussions (or Issues as a fallback) hold the conversation.
+## Cite the edition
 
-## Preferred: Discussions
+This is a budding book. Please name the version you read:
 
-1. Read a chapter under [Book-Wiki/](https://github.com/ThePuzzler-OMNI/mirror-grok/tree/main/Book-Wiki) or the [classic Wiki](https://github.com/ThePuzzler-OMNI/mirror-grok/wiki) once you create its first page.
-2. Open [Discussions](https://github.com/ThePuzzler-OMNI/mirror-grok/discussions).
-3. **New discussion** → category **General** or **Ideas**.
-4. Title: `Book: HOG-Model-Full` or `Book: Five-Gardens` (use the page name).
-5. Paste quotes with context; be constructive; no private data about others.
+- **Current:** v0.1 (see [VERSION](./VERSION))
+- LaTeX: [HOG-Model-Full.md @ 45db1ed](https://github.com/ThePuzzler-OMNI/mirror-grok/blob/45db1edaf559079de1deed4682ed4115be090d60/Core-Framework/HOG-Model-Full.md)
+- PDF: […current.pdf @ 45db1ed](https://github.com/ThePuzzler-OMNI/mirror-grok/blob/45db1edaf559079de1deed4682ed4115be090d60/Core-Framework/HOG_Model___New_Reality_current.pdf)
 
-## Fallback: Issues (chapter threads)
+Title example: `Book: HOG-Model-Full [v0.1] — lattice trapping`
+
+## Steps
+
+1. Read the **LaTeX source** or the **PDF** at the pin above (wiki maps to those files).
+2. Open [Discussions](https://github.com/ThePuzzler-OMNI/mirror-grok/discussions) → **New discussion** → **General** or **Ideas**.
+3. Paste quotes with chapter/section context; be constructive; no private data about others.
+
+## Fallback Issues
 
 | Chapter | Issue |
 |---------|-------|
-| Hub / how-to | [#1](https://github.com/ThePuzzler-OMNI/mirror-grok/issues/1) |
+| Hub | [#1](https://github.com/ThePuzzler-OMNI/mirror-grok/issues/1) |
 | HOG-Model-Full | [#2](https://github.com/ThePuzzler-OMNI/mirror-grok/issues/2) |
 | Five-Gardens | [#3](https://github.com/ThePuzzler-OMNI/mirror-grok/issues/3) |
 | 13-Shared-Values | [#4](https://github.com/ThePuzzler-OMNI/mirror-grok/issues/4) |
 
-## Alignment with One Mission
+## Alignment notes (optional)
 
-When commenting, it helps to note:
-- Which **Garden** (P/A/I/N/E) your point touches
-- Whether you see **contribute** or **tension** relative to the Shared Values
+- Garden: P / A / I / N / E  
+- contribute vs tension vs Shared Values  
 
-Those notes feed the living mission statement process at [mission-progress](https://onemissionnetworkandinstitute.org/mission-progress).
-
-## Site hub
-
-https://onemissionnetworkandinstitute.org/book-wiki
+→ [mission-progress](https://onemissionnetworkandinstitute.org/mission-progress)

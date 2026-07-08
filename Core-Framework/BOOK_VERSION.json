@@ -1,0 +1,46 @@
+{
+  "bookTitle": "HOG Model / New Reality (Fountain of Youth and Path to Immortality)",
+  "currentVersion": "0.1",
+  "status": "budding",
+  "updated": "2026-07-08",
+  "pinnedCommit": "45db1edaf559079de1deed4682ed4115be090d60",
+  "sources": {
+    "latexCanonical": {
+      "path": "Core-Framework/HOG-Model-Full.md",
+      "role": "source_of_truth",
+      "format": "LaTeX stored in a .md file (not plain Markdown prose)",
+      "url": "https://github.com/ThePuzzler-OMNI/mirror-grok/blob/45db1edaf559079de1deed4682ed4115be090d60/Core-Framework/HOG-Model-Full.md"
+    },
+    "pdfArtifact": {
+      "path": "Core-Framework/HOG_Model___New_Reality_current.pdf",
+      "role": "typeset_build",
+      "note": "Compiled/exported PDF of the book. Filename 'current' always points at the published build for this version.",
+      "url": "https://github.com/ThePuzzler-OMNI/mirror-grok/blob/45db1edaf559079de1deed4682ed4115be090d60/Core-Framework/HOG_Model___New_Reality_current.pdf"
+    }
+  },
+  "wiki": {
+    "builtFrom": "latexCanonical",
+    "folder": "Book-Wiki/",
+    "rule": "Book-Wiki pages are navigation + comment hubs. They must not silently diverge from the LaTeX canonical. Link or extract from HOG-Model-Full.md at the pinned commit."
+  },
+  "versioning": {
+    "scheme": "semver-ish major.minor for budding book",
+    "howToBump": [
+      "1. Edit Core-Framework/HOG-Model-Full.md (LaTeX source)",
+      "2. Rebuild/export PDF → overwrite or stage HOG_Model___New_Reality_current.pdf",
+      "3. Optionally copy both into Core-Framework/releases/vX.Y/ for freeze",
+      "4. Update this BOOK_VERSION.json (version, pinnedCommit, changelog)",
+      "5. git tag book-vX.Y and push tag",
+      "6. Update Book-Wiki/VERSION.md and site book-wiki.html if needed"
+    ],
+    "releasesDir": "Core-Framework/releases/"
+  },
+  "history": [
+    {
+      "version": "0.1",
+      "date": "2026-07-08",
+      "commit": "45db1edaf559079de1deed4682ed4115be090d60",
+      "notes": "First registered baseline: LaTeX source + PDF pair frozen for wiki and Master Prompt pinning."
+    }
+  ]
+}
