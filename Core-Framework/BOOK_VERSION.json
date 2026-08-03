@@ -1,27 +1,39 @@
 {
   "bookTitle": "HOG Model / New Reality (Fountain of Youth and Path to Immortality)",
   "currentVersion": "0.1",
-  "status": "budding",
-  "updated": "2026-07-08",
+  "status": "paused",
+  "statusDate": "2026-08-03",
+  "statusNote": "Formal lattice-parameter work on pause. Current steward track: fabric of light between dark and light; God as highest frequency/harmonic. See HOG-CURRENT-TRACK.md. PDF binary not regenerated.",
+  "currentTrackFile": "Core-Framework/HOG-CURRENT-TRACK.md",
+  "updated": "2026-08-03",
   "pinnedCommit": "45db1edaf559079de1deed4682ed4115be090d60",
   "sources": {
+    "currentTrack": {
+      "path": "Core-Framework/HOG-CURRENT-TRACK.md",
+      "role": "living_understanding_while_paused",
+      "note": "Master Prompt and agents should read this before treating HOG-Model-Full or PDF constants as active creed."
+    },
     "latexCanonical": {
       "path": "Core-Framework/HOG-Model-Full.md",
-      "role": "source_of_truth",
+      "role": "historical_incomplete_body",
       "format": "LaTeX stored in a .md file (not plain Markdown prose)",
       "url": "https://github.com/ThePuzzler-OMNI/mirror-grok/blob/45db1edaf559079de1deed4682ed4115be090d60/Core-Framework/HOG-Model-Full.md"
     },
     "pdfArtifact": {
       "path": "Core-Framework/HOG_Model___New_Reality_current.pdf",
-      "role": "typeset_build",
-      "note": "Compiled/exported PDF of the book. Filename 'current' always points at the published build for this version.",
+      "role": "typeset_build_frozen",
+      "note": "Compiled PDF of incomplete body. Not regenerated 2026-08-03. See HOG_Model___STATUS_PAUSE.md.",
       "url": "https://github.com/ThePuzzler-OMNI/mirror-grok/blob/45db1edaf559079de1deed4682ed4115be090d60/Core-Framework/HOG_Model___New_Reality_current.pdf"
+    },
+    "pdfStatusCompanion": {
+      "path": "Core-Framework/HOG_Model___STATUS_PAUSE.md",
+      "role": "pause_banner_for_pdf"
     }
   },
   "wiki": {
     "builtFrom": "latexCanonical",
     "folder": "Book-Wiki/",
-    "rule": "Book-Wiki pages are navigation + comment hubs. They must not silently diverge from the LaTeX canonical. Link or extract from HOG-Model-Full.md at the pinned commit."
+    "rule": "Book-Wiki pages are navigation + comment hubs. While status=paused, surface HOG-CURRENT-TRACK.md first."
   },
   "versioning": {
     "scheme": "semver-ish major.minor for budding book",
@@ -31,7 +43,8 @@
       "3. Optionally copy both into Core-Framework/releases/vX.Y/ for freeze",
       "4. Update this BOOK_VERSION.json (version, pinnedCommit, changelog)",
       "5. git tag book-vX.Y and push tag",
-      "6. Update Book-Wiki/VERSION.md and site book-wiki.html if needed"
+      "6. Update Book-Wiki/VERSION.md and site book-wiki.html if needed",
+      "7. Clear or revise HOG-CURRENT-TRACK.md when formal work unpauses"
     ],
     "releasesDir": "Core-Framework/releases/"
   },
@@ -41,6 +54,11 @@
       "date": "2026-07-08",
       "commit": "45db1edaf559079de1deed4682ed4115be090d60",
       "notes": "First registered baseline: LaTeX source + PDF pair frozen for wiki and Master Prompt pinning."
+    },
+    {
+      "version": "0.1",
+      "date": "2026-08-03",
+      "notes": "Status set to paused. HOG-CURRENT-TRACK.md added: fabric of light between dark and light; highest harmonic; disputed lattice numbers not active creed. PDF not regenerated. Master Prompt unchanged."
     }
   ]
 }
