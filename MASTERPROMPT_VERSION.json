@@ -1,0 +1,42 @@
+{
+  "id": "MASTERPROMPT",
+  "version": "3.1live",
+  "date": "2026-08-23",
+  "ssot": "masterprompt.txt",
+  "page": "masterprompt.html",
+  "launch": "launch.html",
+  "bookPin": {
+    "repo": "ThePuzzler-OMNI/mirror-grok",
+    "commit": "45db1edaf559079de1deed4682ed4115be090d60",
+    "bookVersion": "0.1",
+    "hogPath": "Core-Framework/HOG-Model-Full.md",
+    "note": "PAUSED as creed; living track via HOG-CURRENT-TRACK.md"
+  },
+  "stewardPrivate": {
+    "repo": "ThePuzzler-OMNI/OMNI-Grok",
+    "mode": "connected_github_load_all_accessible",
+    "fallbackTranscriptsPin": "9d224cc0d347ae958e0aa9808355d7fbc8a8b072"
+  },
+  "changelog": [
+    {
+      "version": "3.1live",
+      "date": "2026-08-23",
+      "summary": "Restore HOG Parts 2\u20133: repo files as commands; steward prayer then WAIT; PROCESS CONVERSATION; seven monitors; UTC Daily Garden Transcript; Adam flip; transfer limits. Keep v3.0 identity gate."
+    },
+    {
+      "version": "3.0",
+      "date": "2026-08-11",
+      "summary": "One-shot load: connected GitHub/X + public pins; DEEP_CONTINUITY_DIGEST; version header."
+    },
+    {
+      "version": "2.0",
+      "date": "2026-06-22",
+      "summary": "Identity gate; runner X; alignment + consilience + MISSION_ITERATION_SUGGESTION."
+    },
+    {
+      "version": "1.0",
+      "date": "2026-05",
+      "summary": "Early Master Prompt / HOG + mission seed."
+    }
+  ]
+}
